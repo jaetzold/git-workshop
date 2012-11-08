@@ -1,0 +1,60 @@
+
+$ git init
+Initialized empty Git repository in /Users/stephan/src/git-workshop/dev-machine1/.git/
+
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	readme.md
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add readme.md
+
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   readme.md
+#
+
+$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   readme.md
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   readme.md
+#
+
+$ git commit
+[master (root-commit) 492e231] initial commit. basic readme.
+ 1 file changed, 13 insertions(+)
+ create mode 100644 readme.md
+
+
+$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   readme.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
