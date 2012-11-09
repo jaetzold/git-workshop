@@ -62,3 +62,8 @@ Now use your github account to fork this repo or become a collaborator and do `g
     * [gitolite](https://github.com/sitaramc/gitolite)
 * adaptors to other SCM systems
     * [git-svn](http://git-scm.com/docs/git-svn)
+
+# what the hell ist an .md-file ..?
+
+* .md is just a text file written in Markdown syntax. (see http://daringfireball.net/projects/markdown/).
+
