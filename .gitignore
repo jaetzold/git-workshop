@@ -1,0 +1,8 @@
+# ide specific excludes
+.idea
+*.iml
+atlassian-ide-plugin.xml
+/out/
+
+/*.log
+!commands.log
